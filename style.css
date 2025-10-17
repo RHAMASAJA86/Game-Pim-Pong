@@ -1,0 +1,50 @@
+/* Background gradasi*/
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: linear-gradient(135deg, #6a00ff, #2a0066, #0b001f);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Courier New', monospace;
+  color: white;
+}
+
+h2 {
+  text-transform: lowercase;
+  color: #e6e6e6;
+  font-size: 22px;
+  margin-bottom: 14px;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.25);
+}
+
+/* Arena game */
+.game-container {
+  background: #000;
+  border: 2px solid #fff;
+  border-radius: 6px;
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.1);
+  padding: 8px;
+}
+
+#gameCanvas {
+  background: #000;
+  display: block;
+  border: 2px solid #fff;
+}
+
+/* Info kontrol */
+.info {
+  margin-top: 10px;
+  font-size: 13px;
+  color: #ccc;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 6px 12px;
+  border-radius: 8px;
+  border: 1px solid rgba(255,255,255,0.15);
+  display: flex;
+  gap: 8px;
+  letter-spacing: 1px;
+}
